@@ -1,0 +1,53 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	background-color: #111;
+	font-family: monospace;
+	color: white;
+}
+canvas {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%) scale(3.0);
+	image-rendering: pixelated;
+	display: block;
+}
+
+.cb {
+	display: inline;
+}
+
+#perc {
+	color: white;
+	font-family: "JetBrains Mono NF", monospace;
+	font-size: 40px;
+	margin-bottom: 40px;
+}
+
+.text {
+	color: white;
+	font-family: "JetBrains Mono NF", monospace;
+	margin-bottom: 20px;
+}
+
+.btn {
+	font-size: 20px;
+	display: block;
+	border-radius: 10px;
+	margin-bottom: 10px;
+}
+
+.btn-start {
+	background-color: #0f0;
+	border: 1px #0b0 solid;
+}
+
+.btn-stop {
+	background-color: #c00;
+	border: 1px #900 solid;
+}
+
+.slider {
+	display: block;
+}
