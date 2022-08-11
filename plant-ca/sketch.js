@@ -22,6 +22,7 @@ let cells = [];
 
 function setup() {
   createCanvas(300, 300);
+  pixelDensity(1);
   colorMode(RGB, 1);
 
   total = width * height;

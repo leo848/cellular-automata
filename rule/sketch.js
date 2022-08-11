@@ -12,6 +12,7 @@ let rule, calculatedRule
 
 function setup() {
   createCanvas(300, 150);
+  pixelDensity(1);
 
   // frameRate(10);
 
