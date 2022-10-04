@@ -1,5 +1,5 @@
-const WIDTH = 700;
-const HEIGHT = 500;
+const WIDTH = 400;
+const HEIGHT = 300;
 
 // Create a 2d array with the given width and height, filled with random values
 function randomPipes(cols, rows, empty = true) {
